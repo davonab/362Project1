@@ -25,3 +25,10 @@ label {
 li {
   padding-top: 1.333em; /* 24 / 18 */
 }
+h1, p {
+  text-align: center;
+  font-weight: bold;
+}
+p {
+  padding-bottom: 2.666em;
+}
