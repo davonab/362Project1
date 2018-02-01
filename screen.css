@@ -13,6 +13,8 @@ body {
   padding-right: 1.333em; /* 24 / 18 */
   background-image: url("imgs/pencil.jpg");
   background-repeat: round;
+  font-family: sans-serif;
+  font-style: oblique;
 }
 h1 {
   font-size: 3.375em; /* 60.75 / 18 */
@@ -27,20 +29,19 @@ li {
 }
 h1, p {
   text-align: center;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 p {
   padding-bottom: 2.666em;
 }
 form {
   text-align: center;
-  font-weight: bold;
   padding-bottom: 1.333em;
 }
 input::placeholder {
   color: navy;
 }
-Img {
+img {
   display: block;
   max-width: 100%;
 }
@@ -51,12 +52,13 @@ Img {
     Primary mod 210px
     secondary mod 280px
     */
-body {
-  padding-right: 5.81%; /* 50 / 860 */
-  padding-left: 5.81%; /* 50 / 860 */
-}
-#form, #one, #two {
-  width: 30%; /* 210 / 700 */
-  float: left;
-  margin-left: 3%; /* 21 / 700 */
+  body {
+    padding-right: 5.81%; /* 50 / 860 */
+    padding-left: 5.81%; /* 50 / 860 */
+  }
+  #form, #one, #two {
+    width: 30%; /* 210 / 700 */
+    float: left;
+    margin-left: 3%; /* 21 / 700 */
+  }
 }
