@@ -11,4 +11,6 @@ body {
   padding-top: 2.666em; /*48 / 18*/
   padding-left: 1.333em; /* 24 / 18 */
   padding-right: 1.333em; /* 24 / 18 */
-  
+  background-image: url("imgs/pencil.jpg");
+  background-repeat: round;
+}
