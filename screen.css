@@ -14,3 +14,8 @@ body {
   background-image: url("imgs/pencil.jpg");
   background-repeat: round;
 }
+h1 {
+  font-size: 3.375em; /* 60.75 / 18 */
+  line-height: 0.794em; /* 48 / 60.45 */
+  padding-bottom: 0.4em; /* 7.2 / 18 */
+}
