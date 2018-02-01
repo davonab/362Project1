@@ -19,3 +19,6 @@ h1 {
   line-height: 0.794em; /* 48 / 60.45 */
   padding-bottom: 0.4em; /* 7.2 / 18 */
 }
+label {
+  display: block;
+}
