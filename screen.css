@@ -55,3 +55,8 @@ body {
   padding-right: 5.81%; /* 50 / 860 */
   padding-left: 5.81%; /* 50 / 860 */
 }
+#form, #one, #two {
+  width: 30%; /* 210 / 700 */
+  float: left;
+  margin-left: 3%; /* 21 / 700 */
+}
