@@ -37,3 +37,6 @@ form {
   font-weight: bold;
   padding-bottom: 1.333em;
 }
+input::placeholder {
+  color: navy;
+}
