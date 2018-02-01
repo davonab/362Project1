@@ -40,3 +40,7 @@ form {
 input::placeholder {
   color: navy;
 }
+Img {
+  display: block;
+  max-width: 100%;
+}
