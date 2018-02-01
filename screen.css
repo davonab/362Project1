@@ -32,3 +32,8 @@ h1, p {
 p {
   padding-bottom: 2.666em;
 }
+form {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 1.333em;
+}
