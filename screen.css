@@ -51,3 +51,7 @@ Img {
     Primary mod 210px
     secondary mod 280px
     */
+body {
+  padding-right: 5.81%; /* 50 / 860 */
+  padding-left: 5.81%; /* 50 / 860 */
+}
