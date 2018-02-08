@@ -38,6 +38,9 @@ form {
   text-align: center;
   padding-bottom: 1.333em;
 }
+form #submit {
+  border-radius: 8px;
+}
 input::placeholder {
   color: black;
 }
