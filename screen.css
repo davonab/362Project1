@@ -11,10 +11,11 @@ body {
   padding-top: 2.666em; /*48 / 18*/
   padding-left: 1.333em; /* 24 / 18 */
   padding-right: 1.333em; /* 24 / 18 */
-  background-image: url("imgs/pencil.jpg");
+  background-image: url("imgs/image.jpg");
   background-repeat: round;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: oblique;
+  color: white;
 }
 h1 {
   font-size: 3.375em; /* 60.75 / 18 */
@@ -29,7 +30,6 @@ li {
 }
 h1, p {
   text-align: center;
-  /*font-weight: bold;*/
 }
 p {
   padding-bottom: 2.666em;
@@ -39,7 +39,7 @@ form {
   padding-bottom: 1.333em;
 }
 input::placeholder {
-  color: navy;
+  color: black;
 }
 img {
   display: block;
