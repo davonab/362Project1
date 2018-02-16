@@ -18,5 +18,9 @@ $.noConflict();
     if(document.getElementById("email").value === '' ){
       $('#email').after('<li id="error">You have missing information!</li>');
     }
+    //check if there is data in the input boxes
+    if(document.getElementById("name").value !== '' && document.getElementById("email").value !== ''){
+      $('#signup-form').append('<p>Your information has been submitted, thank you!</p>');
+
   });
 })(jQuery);
