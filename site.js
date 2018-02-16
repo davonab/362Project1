@@ -14,5 +14,9 @@ $.noConflict();
     if(document.getElementById("name").value === '' ){
       $('#name').after('<li id="error">You have missing information!</li>');
     }
+    //check if the email input box is empty
+    if(document.getElementById("email").value === '' ){
+      $('#email').after('<li id="error">You have missing information!</li>');
+    }
   });
 })(jQuery);
