@@ -5,8 +5,7 @@
 /* eslint-enable */
 $.noConflict();
 (function($) {
-  $('#signup-form').on('submit', function(d) {
-    d.preventDefault();
-    $('#signup-form').append('Your information has been submitted, thank you!');
-  });
-})(jQuery);
+  //validate user email
+  var userEmail = $('#email').val();
+  var validateEmail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  
