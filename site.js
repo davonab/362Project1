@@ -24,3 +24,6 @@ $.noConflict();
 
   });
 })(jQuery);
+      //remove the error messages
+      document.getElementById("error").remove();
+}
