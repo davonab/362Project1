@@ -223,6 +223,12 @@ img {
   display: block;
   max-width: 100%;
 }
+@media screen and (min-width: 375px) {
+  body {
+    padding-left: 12.80%;
+    padding-right: 12.80%;
+  }
+}
 @media screen and (min-width: 860px) {
   /* 700 px grid with 50px margins
     Columns are 200px
