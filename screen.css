@@ -204,6 +204,10 @@ input {
   border: 0;
   padding: 13px;
 }
+form ol,
+form ol li {
+  list-style-type: none;
+}
 li {
   padding-top: 1.333em; /* 24 / 18 */
 }
