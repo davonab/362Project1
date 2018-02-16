@@ -26,4 +26,12 @@ $.noConflict();
 })(jQuery);
       //remove the error messages
       document.getElementById("error").remove();
-}
+    }
+    //validate users email
+    if(document.getElementById("email").value !== '' && !validateEmail.test(userEmail))
+    {
+      $('#email').append('Your email seems to be incorrect, try again');
+      return false;
+    }
+  });
+})(jQuery);
