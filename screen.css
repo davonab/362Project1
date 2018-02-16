@@ -193,6 +193,9 @@ p {
 label {
   display: block;
 }
+#image {
+  padding-bottom: 0.75em;
+}
 li {
   padding-top: 1.333em; /* 24 / 18 */
 }
