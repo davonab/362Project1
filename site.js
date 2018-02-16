@@ -21,9 +21,6 @@ $.noConflict();
     //check if there is data in the input boxes
     if(document.getElementById("name").value !== '' && document.getElementById("email").value !== ''){
       $('#signup-form').append('<p>Your information has been submitted, thank you!</p>');
-
-  });
-})(jQuery);
       //remove the error messages
       document.getElementById("error").remove();
     }
