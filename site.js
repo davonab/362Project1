@@ -8,4 +8,11 @@ $.noConflict();
   //validate user email
   var userEmail = $('#email').val();
   var validateEmail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-  
+  $('#signup-form').on('submit', function(d) {
+    d.preventDefault();
+    //check if the name input box is empty
+    if(document.getElementById("name").value === '' ){
+      $('#name').after('<li id="error">You have missing information!</li>');
+    }
+  });
+})(jQuery);
