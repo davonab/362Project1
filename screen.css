@@ -209,7 +209,7 @@ form ol li {
   list-style-type: none;
 }
 li {
-  padding-top: 1.333em; /* 24 / 18 */
+  padding-top: 1.25em; /* 22 / 18 */
 }
 form {
   text-align: center;
