@@ -178,8 +178,12 @@ body {
 }
 h1 {
   font-size: 3.375em; /* 60.75 / 18 */
-  line-height: 0.794em; /* 48 / 60.45 */
+  line-height: 0.844em; /* 48 / 60.45 */
   padding-bottom: 0.4em; /* 7.2 / 18 */
+}
+h2 {
+  font-size: 2.369em; /* 42.635 / 18 */
+  line-height: 1.125em; /* 24 / 18 */
 }
 label {
   display: block;
