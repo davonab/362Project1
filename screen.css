@@ -235,19 +235,8 @@ img {
   }
 }
 @media screen and (min-width: 860px) {
-  /* 700 px grid with 50px margins
-    Columns are 200px
-    Gutters are 21px
-    Primary mod 210px
-    secondary mod 280px
-    */
   body {
     padding-right: 5.81%; /* 50 / 860 */
     padding-left: 5.81%; /* 50 / 860 */
-  }
-  #form, #one, #two {
-    width: 30%; /* 210 / 700 */
-    float: left;
-    margin-left: 3%; /* 21 / 700 */
   }
 }
