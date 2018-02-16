@@ -211,12 +211,10 @@ form ol li {
 li {
   padding-top: 1.25em; /* 22 / 18 */
 }
-form {
-  text-align: center;
-  padding-bottom: 1.333em;
-}
-form #submit {
-  border-radius: 8px;
+#submit {
+  border-radius: 12px;
+  background-color: white;
+  color: midnightblue;
 }
 input::placeholder {
   color: black;
