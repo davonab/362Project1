@@ -216,7 +216,7 @@ form ol li {
   list-style-type: none;
 }
 #submit {
-  border-radius: 12px;
+  border-radius: 0.667em; /* 12 / 18 */
   background-color: white;
   color: midnightblue;
 }
