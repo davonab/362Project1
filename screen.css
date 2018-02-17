@@ -163,7 +163,7 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
-
+/* base styles */
 html {
   font-size: 1.125em; /* 18 / 16 */
   line-height: 1.333em; /*24 / 18*/
@@ -190,12 +190,19 @@ p {
   padding-bottom: 1.333em;
   max-width: 38.89em; /*700px / 18 */
 }
-label {
-  display: block;
-}
 #image {
   padding-bottom: 0.75em;
 }
+input::placeholder {
+  color: navy;
+}
+label {
+  display: block;
+}
+li {
+  padding-top: 1.25em; /* 22 / 18 */
+}
+/* layout styles */
 input {
   box-sizing: border-box;
   line-height: 1;
@@ -208,21 +215,16 @@ form ol,
 form ol li {
   list-style-type: none;
 }
-li {
-  padding-top: 1.25em; /* 22 / 18 */
-}
 #submit {
   border-radius: 12px;
   background-color: white;
   color: midnightblue;
 }
-input::placeholder {
-  color: navy;
-}
 img {
   display: block;
   max-width: 100%;
 }
+/* state styles */
 @media screen and (min-width: 375px) {
   body {
     padding-left: 12.80%;
