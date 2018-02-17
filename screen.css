@@ -227,8 +227,11 @@ img {
 /* state styles */
 @media screen and (min-width: 375px) {
   html {
-    font-size: 1.375em;
+    font-size: 1.375em; /* 22 / 16 */
   }
+  body {
+    padding-left: 6.4%; /* 24 / 375 */
+    padding-right: 6.4%; /* / 375 */
 }
 @media screen and (min-width: 640px) {
   body {
