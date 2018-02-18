@@ -217,7 +217,7 @@ form ol li {
 }
 #submit {
   border-radius: 0.667em; /* 12 / 18 */
-  background-color: white;
+  background-color: darkred;
   color: midnightblue;
 }
 img {
