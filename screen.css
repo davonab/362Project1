@@ -201,8 +201,7 @@ label {
   display: block;
 }
 li {
-  padding-top: 1.25em; /* 22 / 18 */
-}
+  padding-top: 1em; /* 18 / 18 */
 /* layout styles */
 input {
   box-sizing: border-box;
