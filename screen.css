@@ -180,15 +180,16 @@ h1 {
   font-size: 3.375em; /* 60.75 / 18 */
   line-height: 0.844em; /* 48 / 60.45 */
   padding-bottom: 0.4em; /* 7.2 / 18 */
+  font-weight: bold;
 }
 h2 {
-  font-size: 2.369em; /* 42.635 / 18 */
+  font-size: 2.25em; /* 42.635 / 18 */
   line-height: 1.125em; /* 24 / 18 */
 }
 p {
   padding-top: 1.333em;
   padding-bottom: 1.333em;
-  max-width: 38.89em; /*700px / 18 */
+  max-width: 38.888em; /*700px / 18 */
 }
 #image {
   padding-bottom: 0.75em;
