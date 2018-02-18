@@ -187,8 +187,8 @@ h2 {
   line-height: 1.125em; /* 24 / 18 */
 }
 p {
-  padding-top: 1.333em;
-  padding-bottom: 1.333em;
+  padding-top: 1.556em; /* 28 / 18 */
+  padding-bottom: 1.556em; /* 28 / 18 */
   max-width: 38.888em; /*700px / 18 */
 }
 #image {
